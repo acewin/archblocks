@@ -12,18 +12,18 @@
 # bash install.sh
 
 # RESPOSITORY ------------------------------------------------------------
-REMOTE=https://raw.github.com/altercation/archblocks/dev
+REMOTE=https://raw.github.com/acewin/archblocks/master
 
 # CONFIG -----------------------------------------------------------------
 
-HOSTNAME=tau
-USERNAME=es
+HOSTNAME=titanium
+USERNAME=sphadnis
 USERSHELL=/bin/bash
 FONT=Lat2-Terminus16
 FONT_MAP=8859-1_to_uni
 LANGUAGE=en_US.UTF-8
 KEYMAP=us
-TIMEZONE=US/Pacific
+TIMEZONE=US/Eastern
 MODULES="dm_mod dm_crypt aes_x86_64 ext2 ext4 vfat intel_agp drm i915"
 HOOKS="base udev autodetect pata scsi sata usb usbinput consolefont encrypt filesystems fsck shutdown"
 KERNEL_PARAMS="quiet i915.i915_enable_rc6=1 i915.i915_enable_fbc=1 i915.lvds_downclock=1"
@@ -35,7 +35,7 @@ KERNEL_PARAMS="quiet i915.i915_enable_rc6=1 i915.i915_enable_fbc=1 i915.lvds_dow
 # list a url to use as a mr config file and archblocks core install will
 # su to the new user's (USERNAME above) home and bootstrap using it.
 # mr will be installed if this variable is set.
-MR_BOOTSTRAP=https://raw.github.com/altercation/es-etc/master/vcs/.mrconfig
+#MR_BOOTSTRAP=https://raw.github.com/altercation/es-etc/master/vcs/.mrconfig
 
 # BLOCKS -----------------------------------------------------------------
 TIME=common/time_chrony_utc
