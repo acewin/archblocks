@@ -31,7 +31,7 @@ root      ALL=(ALL) ALL
 Defaults !requiretty, !tty_tickets, !umask
 Defaults visiblepw, path_info, insults, lecture=always
 Defaults loglinelen = 0, logfile =/var/log/sudo.log, log_year, log_host, syslog=auth
-Defaults mailto=es@ethanschoonover.com, mail_badpass, mail_no_user, mail_no_perms
+Defaults mailto=acewin@gmail.com, mail_badpass, mail_no_user, mail_no_perms
 Defaults passwd_tries = 8, passwd_timeout = 1
 Defaults env_reset, always_set_home, set_home, set_logname
 Defaults !env_editor, editor="/usr/bin/vim:/usr/bin/vi:/usr/bin/nano"
